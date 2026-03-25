@@ -129,6 +129,7 @@ weighted avg      0.970     0.960     0.963  1208622
 
 ## Project Structure
 
+```
 arabic-punctuation-restoration/
 │
 ├── api/
@@ -179,7 +180,7 @@ arabic-punctuation-restoration/
 ├── config.yaml # Project configuration
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+```
 
 ---
 

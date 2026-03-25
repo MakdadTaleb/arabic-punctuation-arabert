@@ -1,0 +1,132 @@
+# =========================
+
+#  Python General
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+
+venv/
+.env/
+.venv/
+
+# =========================
+
+#  Jupyter Notebooks
+
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+
+# Logs & Debug
+
+# =========================
+
+*.log
+logs/
+debug.log
+
+# =========================
+
+# Dependencies & Cache
+
+# =========================
+
+pip-wheel-metadata/
+*.whl
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+
+# ML / AI Specific
+
+# =========================
+
+# Model weights (VERY IMPORTANT)
+
+models/
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# HuggingFace / Transformers cache
+
+.cache/huggingface/
+.huggingface/
+
+# Datasets
+
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+
+# Large files
+
+*.zip
+*.tar
+*.gz
+
+# =========================
+
+# Config & Secrets
+
+# =========================
+
+.env
+*.env
+secrets.yaml
+
+# =========================
+
+# OS Files
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# IDE / Editor
+
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+
+# Project-Specific (Arabic Punctuation Restoration)
+
+# =========================
+
+# Temporary dataset artifacts
+
+temp_*.csv
+
+# Intermediate outputs
+
+outputs/
+checkpoints/
+
+# Any generated dataset during pipeline
+
+generated_data/

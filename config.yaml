@@ -1,0 +1,21 @@
+data:
+  path: data/final_training_dataset_400k.pkl
+  batch_size: 16
+  num_labels: 7
+  val_split: 0.1
+
+training:
+  epochs: 3
+  learning_rate: 2e-5
+  warmup_ratio: 0.1
+  early_stopping_patience: 2
+  class_weights: [0.05, 1.0, 1.1, 1.0, 1.0, 1.2, 1.1]
+
+model:
+  name: aubmindlab/bert-base-arabertv02
+  save_path: best_model_weights.pt
+
+inference:
+  use_two_stage: true
+  comma_threshold: 0.7
+  

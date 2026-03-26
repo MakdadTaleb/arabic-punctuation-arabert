@@ -6,8 +6,8 @@ import yaml
 from torch.utils.data import DataLoader
 from sklearn.model_selection import train_test_split
 
-from src.models.dataset import PunctuationDataset
-from src.models.arabert_model import load_model, load_tokenizer
+from src.model.dataset import PunctuationDataset
+from src.model.arabert_model import load_model, load_tokenizer
 from src.evaluation.metrics_report import generate_classification_report
 from src.evaluation.confusion import compute_confusion_matrix
 

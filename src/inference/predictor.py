@@ -1,6 +1,6 @@
 import torch
 from transformers import AutoTokenizer
-from src.models.arabert_model import load_model
+from src.model.arabert_model import load_model
 from .postprocessing import two_stage_decision
 import yaml
 import os

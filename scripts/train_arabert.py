@@ -5,8 +5,8 @@ from torch.utils.data import DataLoader
 from torch.optim import AdamW
 from transformers import get_linear_schedule_with_warmup
 
-from src.models.dataset import PunctuationDataset
-from src.models.arabert_model import load_model, load_tokenizer
+from src.model.dataset import PunctuationDataset
+from src.model.arabert_model import load_model, load_tokenizer
 from src.training.losses import get_weighted_loss
 from src.training.trainer import Trainer
 from src.training.early_stopping import EarlyStopping
